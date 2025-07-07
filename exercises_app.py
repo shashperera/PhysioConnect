@@ -6,7 +6,7 @@ conn = pyodbc.connect(
     'SERVER=physiotherapy-db.c9ma26yckcjb.eu-north-1.rds.amazonaws.com;'
     'DATABASE=physiotherapy-db;'
     'UID=admin;'
-    'PWD=shashi12'
+    'PWD=shashipraba12'
 )
 cursor = conn.cursor()
 
