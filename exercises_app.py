@@ -3,10 +3,10 @@ import pyodbc
 # AWS RDS details
 conn = pyodbc.connect(
     'DRIVER={ODBC Driver 17 for SQL Server};'
-    'SERVER=physiotherapy-db.c9ma26yckcjb.eu-north-1.rds.amazonaws.com;'
+    'SERVER=physiotherapy-db.*******.eu-north-1.rds.amazonaws.com;'
     'DATABASE=physiotherapy-db;'
     'UID=admin;'
-    'PWD=shashipraba12'
+    'PWD=ur_password'
 )
 cursor = conn.cursor()
 
